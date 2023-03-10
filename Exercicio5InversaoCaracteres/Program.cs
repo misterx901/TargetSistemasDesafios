@@ -10,8 +10,7 @@ namespace Exercicio5InversaoCaracteres
             Console.WriteLine("Digite a palavra na qual voce quer realizar a inversao de strings");
             var palavra=Console.ReadLine();
 
-            Console.WriteLine(inverterString(palavra));
-         
+            Console.WriteLine(inverterString(palavra));   
         }
 
         static string inverterString(string palavra)
