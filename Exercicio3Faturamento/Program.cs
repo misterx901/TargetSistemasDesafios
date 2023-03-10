@@ -116,9 +116,7 @@ namespace Exercicio3Faturamento
             for (int i = 0; i < vetorComFaturamento.Length; i++)
             {
                 if (vetorComFaturamento[i].Valor > mediaMensalFaturamento)
-                {
                     diasComValorMaiorQueMediaMensal++;
-                }
             }
             return diasComValorMaiorQueMediaMensal;
         }

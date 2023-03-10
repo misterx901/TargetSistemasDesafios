@@ -15,6 +15,5 @@ namespace Exercicio4Faturamento
 
         [JsonProperty("percentual")]
         public double PercentualFaturamento { get; set; }
-
     }
 }

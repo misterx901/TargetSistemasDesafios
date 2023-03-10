@@ -16,11 +16,7 @@ namespace Exercicio4Faturamento
             var vetorComFaturamentoComPercentualPorEstado = calcularPercentualFaturamentoPorEstado(vetorComFaturamento);
 
             foreach(var percentualFaturamentoPorEstado in vetorComFaturamentoComPercentualPorEstado)
-            {
                 Console.WriteLine("O estado " + percentualFaturamentoPorEstado.Estado + " obteve " + String.Format("{0:0.##}", percentualFaturamentoPorEstado.PercentualFaturamento) + "% do faturamento mensal total da empresa");
-
-            }
-
         }
 
         static Faturamento[] criarVetorComRegistrosDoFaturamento(string dadosFaturamento)
